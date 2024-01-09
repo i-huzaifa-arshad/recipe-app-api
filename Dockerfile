@@ -20,7 +20,7 @@ RUN python -m venv /py && \
      /py/bin/pip install -r /tmp/requirements.dev.txt ; \ 
     fi  && \
     rm -rf /tmp && \
-    apk del .tmp-b uild-deps && \
+    apk del .tmp-build-deps && \
     adduser \
         --disabled-password \
         --no-create-home \
